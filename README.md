@@ -9,7 +9,8 @@ Graphics Runtime Kit Project 1.0 2027 Source Package
   
 
 # GRK
-  Renders Widgets And Colors To The Desktop Screen
+  Renders Widgets And Colors To The Desktop Screen. 
+  NOTE : GRK Does not provide its own widget GUI, it is intended to create a GUI by allowing your GUI you made to render to the screen.
   
 
 # GPICL
