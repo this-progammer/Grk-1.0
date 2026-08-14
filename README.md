@@ -1,7 +1,7 @@
 # GRK-1.0
 Graphics Runtime Kit 1.0 2027 Source Package
 
-# ===============================Packages======================================
+# =====*PACKAGES*=====
   -GRK ( Graphics Runtime Kit )
   -GPICL ( Graphics Picture Library )
   -GTEXL ( Graphics Text Library )
