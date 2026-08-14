@@ -23,10 +23,10 @@ Graphics Runtime Kit Project 1.0 2027 Source Package
   Intended For GUI Of A Unreleased Operating System, That Yet Will Not Be Named Or Released.
 
 # Architecure
-  X64_DEBUG
-  X64_RELEASE
+  X64_DEBUG.
+  X64_RELEASE.
 
 # Programmers Manual
-  Script Files Are To Be Written In Python
-  Source Files Are To Be Written In C++
-  Graphics Hardware Management Should Be Written In x86ASM
+  Script Files Are To Be Written In Python.
+  Source Files Are To Be Written In C++.
+  Graphics Hardware Management Should Be Written In x86ASM.
