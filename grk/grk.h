@@ -393,6 +393,7 @@ typedef struct widget_s* WIDGET;
 /*GRK DEVICE CONTEXT*/
 typedef void(*grkCreateWidgetContext)(WIDGET, GRK_TYPE GRKWIDGET);
 typedef void(*grkDeleteWidgetContext)(WIDGET);
+typedef void(*grkSetWidgetCode)(unsigned GRK_TYPE CODE);
  
 
 #endif
