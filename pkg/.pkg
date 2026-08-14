@@ -1,1 +1,3 @@
-PKG_CONFIG="grk//"
+PKG_CONFIG="grk/"
+PKG_CONFIG="gtexl/"
+PKG_CONFIG="gpicl/"
