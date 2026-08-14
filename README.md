@@ -32,4 +32,4 @@ Graphics Runtime Kit Project 1.0 2027 Source Package
   Graphics Hardware Management Should Be Written In x86ASM.
 
 # Build
-  !<compiler> $(pkg-config -./grk/ -./gpicl/ -./gtextl/) <arch_type> -o $.grkpkg
+  <compiler> $(pkg-config -./grk/ -./gpicl/ -./gtextl/) <arch_type> -o $.grkpkg
