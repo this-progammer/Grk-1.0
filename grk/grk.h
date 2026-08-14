@@ -348,6 +348,45 @@ Public License instead of this License.
 #define GRK_VERSION 1
 #define GRK_NAME "GRK"
 
+#define GRK_TYPE int
+
+/*supported widget types*/
+#define GRK_WIDGET_WINDOW 0x0
+#define GRK_WIDGET_BOX 0x1
+#define GRK_WIDGET_BUTTON 0x2
+#define GRK_WIDGET_MENUBAR 0x3
+#define GRK_WIDGET_MENU 0x4
+#define GRK_WIDGET_LABEL 0x5
+#define GRK_WIDGET_CHECK_BOX 0x6
+#define GRK_WIDGET_SLIDER 0x7
+#define GRK_WIDGET_GROUP_BOX 0x8
+#define GRK_WIDGET_SEPERATOR 0x9
+#define GRK_WIDGET_SCROLLBAR 0x10
+#define GRK_WIDGET_FRAME 0x11
+#define GRK_WIDGET_PANEL 0x12
+#define GRK_WIDGET_LIST 0x13
+#define GRK_WIDGET_TREE 0x14
+#define GRK_WIDGET_DIALOG 0x15
+#define GRK_WIDGET_TOOLBAR 0x16
+#define GRK_WIDGET_PANED 0x17
+#define GRK_WIDGET_SPLITTER 0x18
+#define GRK_WIDGET_ENTRY 0x19
+#define GRK_WIDGET_COMBO 0x20
+#define GRK_WIDGET_CONTEXT_MENU 0x21
+#define GRK_WIDGET_TITLE_BAR 0x22
+#define GRK_WIDGET_PICTURE 0x23
+#define GRK_WIDGET_BAR 0x24
+#define GRK_WIDGET_SCREEN 0x25
+#define GRK_WIDGET_RECTANGLE 0x26
+#define GRK_WIDGET_PIXEL 0x27
+#define GRK_WIDGET_LOADING_BAR 0x28
+#define GRK_WIDGET_CURSOR 0x29
+#define GRK_WIDGET_TIMER 0x30
+#define GRK_WIDGET_DOCK 0x31
+#define GRK_WIDGET_COUNTER 0x32
+
+typedef void(*grkCreateWidgetContext)(typedef struct grkwidget_s* WIDGET, GRK_TYPE GRKWIDGET);
+typedef void(*grkDeleteWidgetContext)(typedef struct grkwidget_s* WIDGET);
  
 
 #endif
