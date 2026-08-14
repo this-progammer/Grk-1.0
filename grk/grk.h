@@ -384,7 +384,11 @@ Public License instead of this License.
 #define GRK_WIDGET_TIMER 0x30
 #define GRK_WIDGET_DOCK 0x31
 #define GRK_WIDGET_COUNTER 0x32
+#define GRK_WIDGET_WINDOW_BAR 0x33
+#define GRK_WIDGET_CANVAS 0x34
+#define GRK_WIDGET_LIST_ITEM 0x35
 
+/*GRK DEVICE CONTEXT*/
 typedef void(*grkCreateWidgetContext)(typedef struct grkwidget_s* WIDGET, GRK_TYPE GRKWIDGET);
 typedef void(*grkDeleteWidgetContext)(typedef struct grkwidget_s* WIDGET);
  
