@@ -388,9 +388,11 @@ Public License instead of this License.
 #define GRK_WIDGET_CANVAS 0x34
 #define GRK_WIDGET_LIST_ITEM 0x35
 
+typedef struct widget_s* WIDGET;
+
 /*GRK DEVICE CONTEXT*/
-typedef void(*grkCreateWidgetContext)(typedef struct grkwidget_s* WIDGET, GRK_TYPE GRKWIDGET);
-typedef void(*grkDeleteWidgetContext)(typedef struct grkwidget_s* WIDGET);
+typedef void(*grkCreateWidgetContext)(WIDGET, GRK_TYPE GRKWIDGET);
+typedef void(*grkDeleteWidgetContext)(WIDGET);
  
 
 #endif
