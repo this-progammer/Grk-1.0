@@ -1,5 +1,5 @@
 # GRK-1.0
-Graphics Runtime Kit 1.0 2027 Source Package
+Graphics Runtime Kit Project 1.0 2027 Source Package
 
 
 # -----*PACKAGES*-----
@@ -18,3 +18,15 @@ Graphics Runtime Kit 1.0 2027 Source Package
 
 # GTEXL
   Renders Text And Fonts
+
+# Intended Use 
+  Intended For GUI Of A Unreleased Operating System, That Yet Will Not Be Named Or Released.
+
+# Architecure
+  X64_DEBUG
+  X64_RELEASE
+
+# Programmers Manual
+  Script Files Are To Be Written In Python
+  Source Files Are To Be Written In C++
+  Graphics Hardware Management Should Be Written In x86ASM
