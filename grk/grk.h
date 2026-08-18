@@ -394,7 +394,19 @@ typedef struct widget_s* WIDGET;
 typedef void(*grkCreateWidgetContext)(WIDGET, GRK_TYPE GRKWIDGET);
 typedef void(*grkDeleteWidgetContext)(WIDGET);
 typedef void(*grkSetWidgetCode)(unsigned GRK_TYPE CODE);
- 
+typedef void(*grkBorderWidth)(int w);
+typedef void(*grkBorderColor)(float f[3]);
+typedef void(*grkBorderBevel)(float bevel);
+typedef void(*grkWidgetColor)(float f[3]);
+typedef void(*grkWidgetSize)(int w, int h);
+typedef void(*grkWidgetPosition)(int x, int y);
+typedef void(*grkBoxWidget)(WIDGET, widget_s* BOX_WIDGET);
+typedef void(*grkShow)(int n);
+typedef void(*grkHide)(int n);
+typedef void(*grkQueueWidget)(WIDGET);
+typedef void(*grkUpdate)();
+typedef void(*grkWidgetTransparency)(float transparency);
+typedef void(*grkWidgetBlur)(float blur);
 
 #endif
 
