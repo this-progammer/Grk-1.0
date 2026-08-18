@@ -346,7 +346,18 @@ Public License instead of this License.
 #define GTEXL_
 
 #define GTEXL_VERSION 1
+#define GTEXL "*&-GTEXL-&*"
 
+struct gtexldomain_s*DOMAIN;
+
+typedef void(*gtexlCreateTextDomain)(DOMAIN);
+typedef void(*gtexlDestroyTextDomain)(DOMAIN);
+typedef void(*gtexlDomainSize)(int w, int h);
+typedef void(*gtexlDomainPosition)(int w, int h);
+typedef void(*gtexlDomainLanguage)((char*));
+typedef void(*gtexlWrite)(DOMAIN, (char*));
+typedef void(*gtexlErase)(DOMAIN);
+typedef void(*gtexlColor)(float f[3]);
 
 #endif
 
