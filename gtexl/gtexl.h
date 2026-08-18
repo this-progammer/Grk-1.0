@@ -340,3 +340,16 @@ library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.
 */
 /*gtexl.h*/
+#pragma once
+
+#ifndef GTEXL_
+#define GTEXL_
+
+#define GTEXL_VERSION 1
+
+
+#endif
+
+
+
+
