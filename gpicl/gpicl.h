@@ -3,10 +3,11 @@
 #ifndef GPICL_
 #define GPICL_
 
+/*picture modules*/
 #define GPICL_VERSION 1
 #define GPICL_NAME "GPICL"
 
-// picture
+/*picture*/
 struct gpicl_s*GPIC;
 
 /*function*/
