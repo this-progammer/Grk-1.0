@@ -7,7 +7,7 @@
 #define GPICL_NAME "GPICL"
 
 // picture
-typedef struct gpicl_s*GPIC;
+struct gpicl_s*GPIC;
 
 
 
